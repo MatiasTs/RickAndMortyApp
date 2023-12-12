@@ -22,7 +22,7 @@ export default function Album() {
 
           
           {datos.map((character) => (
-                        <Card key={character.id} imagen={character.image} name={character.name} />
+                        <Card key={character.id} id={character.id} imagen={character.image} name={character.name} />
                     ))}
         </div>
       </div>

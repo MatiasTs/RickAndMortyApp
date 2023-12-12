@@ -1,7 +1,7 @@
 
 import './App.css'
 import Inicio from './components/Inicio'
-import info from './components/CharacterPage'
+import Info from './components/CharacterPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
     
       <Routes>
         <Route path='/' element={<Inicio />}/>
-        <Route path="/hola" element={<info />} />
+        <Route path="/character/:id" element={<Info />} />
       </Routes>
     </BrowserRouter>
   )
