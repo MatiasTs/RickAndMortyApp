@@ -21,8 +21,8 @@ export default function Album() {
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
           
-          {characterData.map((character) => (
-                        <Card key={character.id} image={character.image} name={character.name} />
+          {datos.map((character) => (
+                        <Card key={character.id} imagen={character.image} name={character.name} />
                     ))}
         </div>
       </div>
